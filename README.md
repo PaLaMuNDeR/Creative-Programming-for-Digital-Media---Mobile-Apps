@@ -10,4 +10,4 @@ Adding sound
 
 Graphics around the ball
 
-Some Visualizer (http://www.openprocessing.org/sketch/5989)
+Some Visualizer (http://www.openprocessing.org/sketch/5989 or http://explodingart.com/soundcipher/tutorials.html)
