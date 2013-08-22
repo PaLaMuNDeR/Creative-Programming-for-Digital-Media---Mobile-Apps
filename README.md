@@ -7,4 +7,7 @@ Load files in Processing (Android mode). Transfer to Mobile device with Android.
 
 ToDo:
 Adding sound
+
 Graphics around the ball
+
+Some Visualizer (http://www.openprocessing.org/sketch/5989)
