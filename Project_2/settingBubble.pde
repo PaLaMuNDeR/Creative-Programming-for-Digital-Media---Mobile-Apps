@@ -69,7 +69,7 @@ void settingBubble(){
   
   //set the volume of the player with the
   //accelerometer
-  float songvolume = map(accel.getY(), -10, 10, 0.03, 2);
+  float songvolume = map(accel.getY(), -10, 10, 0.3, 3);
   sample1.volume(songvolume);
   sample2.volume(songvolume);
   sample3.volume(songvolume);
@@ -80,5 +80,7 @@ void settingBubble(){
   ATamb.volume(songvolume);
   ATri.volume(songvolume);
   ATrump.volume(songvolume);
+ 
+ 
  
 }

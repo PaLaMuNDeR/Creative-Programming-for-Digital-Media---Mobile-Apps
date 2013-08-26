@@ -159,6 +159,10 @@ void draw()
   //draw bubble moving with accelerometer and 
   //bouncing with the power of music
   settingBubble();
+
+
+  
+  
   //displays the text for navigating the bubble
   displayText();
  // displayInstruments();  
@@ -217,10 +221,11 @@ void draw()
     tri.display();
     tru.display();
   }
- if(!showGUI && !showGUI2)   
+ if(!showGUI && !showGUI2)   //main view
   {
     displayBottomPanel();    //the bottom panel
     displayUpperPanel();  //the upper panel
+    
   }
   
  playhead ++;
@@ -399,4 +404,5 @@ void mouseReleased(){
     println("Changing the GUI");
     showGUI2=!showGUI2;}
 }
+
 
